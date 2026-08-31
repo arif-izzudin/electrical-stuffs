@@ -78,4 +78,5 @@ useHead({
   <article class="article">
     <ContentRenderer v-if="doc" :value="doc" />
   </article>
+  <UnitDiscussion :key="path" />
 </template>

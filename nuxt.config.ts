@@ -31,6 +31,12 @@ export default defineNuxtConfig({
     public: {
       // Empty until go-live: canonical/og:url tags only activate when a real domain is set
       siteUrl: '',
+      giscus: {
+        repo: 'arif-izzudin/electrical-stuffs',
+        repoId: 'R_kgDOUIOufA',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOUIOufM4DEhh9',
+      },
     },
   },
 
